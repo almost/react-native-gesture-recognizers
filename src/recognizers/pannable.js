@@ -1,6 +1,7 @@
 'use strict';
 
-import React, { PropTypes, Component, View, PanResponder, Animated } from 'react-native';
+import React from 'React',
+import { PropTypes, Component, View, PanResponder, Animated } from 'react-native';
 
 const initialState = {
   absoluteChangeX: 0,
